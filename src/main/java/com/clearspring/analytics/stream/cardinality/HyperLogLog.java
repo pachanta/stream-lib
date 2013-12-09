@@ -71,7 +71,7 @@ import java.io.Serializable;
  * implementation google provides.
  * </p>
  */
-public class HyperLogLog implements ICardinality
+public class HyperLogLog implements ICardinality,Serializable
 {
     private final RegisterSet registerSet;
     private final int log2m;
